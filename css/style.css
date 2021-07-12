@@ -1,0 +1,17 @@
+body {
+
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid brown;
+}
+
