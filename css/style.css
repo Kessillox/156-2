@@ -77,10 +77,16 @@ body {
 }
 
 #datos div {
+    width: 780px;
     padding: 30px;
-    margin: 20px 0;
+    margin: 20px auto;
     border-radius: 10px;
     background-color: lightslategrey;
+}
+
+#datos hr {
+    margin: 60px auto;
+    width: 780px;
 }
 
 #datos div p {
@@ -449,108 +455,3 @@ div.glow span {
                                     display: block;
                                 }
                                 /* fin de pagina habilidades */
-                                /*
-Inicio Estilos Datos Personales
-*/
-                                
-                                * {
-                                    margin: 0;
-                                    padding: 0;
-                                    box-sizing: border-box;
-                                }
-                                
-                                body {
-                                    font-family: 'Raleway', sans-serif;
-                                }
-                                
-                                #cabezera {
-                                    width: 100%;
-                                    height: 280px;
-                                    padding: 35px;
-                                    background-image: url(../img/header_bg.jpeg);
-                                    background-size: cover;
-                                    text-align: center;
-                                    color: #ffffff;
-                                }
-                                
-                                #cabezera .activo {
-                                    background-color: orangered;
-                                }
-                                
-                                #cabezera hr {
-                                    width: 650px;
-                                    margin: 0 auto;
-                                }
-                                
-                                .menu {
-                                    margin-top: 40px;
-                                    font-weight: 500;
-                                }
-                                
-                                .menu ul li {
-                                    list-style: none;
-                                    display: inline;
-                                }
-                                
-                                .menu ul li a {
-                                    padding: 10px;
-                                    margin: 5px;
-                                    border-radius: 8px;
-                                    background-color: coral;
-                                    color: #ffffff;
-                                    text-decoration: none;
-                                }
-                                
-                                .menu ul li a:hover {
-                                    background-color: lightseagreen;
-                                }
-                                
-                                #fotografia {
-                                    text-align: center;
-                                    height: 130px;
-                                }
-                                
-                                #fotografia img {
-                                    display: inline-block;
-                                    width: 180px;
-                                    border-radius: 50%;
-                                    margin: 0 auto;
-                                    position: relative;
-                                    top: -90px;
-                                    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.45);
-                                    border: 5px solid lightslategray;
-                                }
-                                
-                                #datos {
-                                    width: 100%;
-                                    text-align: center;
-                                }
-                                
-                                #datos p {
-                                    margin: 8px;
-                                }
-                                
-                                #datos table {
-                                    margin-top: 20px;
-                                }
-                                
-                                table {
-                                    width: 50%;
-                                    margin: 0 auto;
-                                    border-collapse: collapse;
-                                }
-                                
-                                td,
-                                th {
-                                    width: 50%;
-                                    border: 1px solid #dddddd;
-                                    text-align: left;
-                                    padding: 8px;
-                                }
-                                
-                                tr:nth-child(even) {
-                                    background-color: #ebebeb;
-                                }
-                                /*
-Fin Estilos Datos Personales
-*/
