@@ -268,3 +268,289 @@ div.glow span {
     }
 }
 
+                                /* inicio de pagina Habilidades*/
+                                
+                                .headerfondo {
+                                    margin: 0;
+                                    width: 100%;
+                                    height: 280px;
+                                    padding: 0px;
+                                    background-size: cover;
+                                    background-image: url(https://raw.githubusercontent.com/Ruzder/respaldo/main/header_bg.jpeg);
+                                    color: #ad3505;
+                                    position: relative;
+                                    text-align: center;
+                                }
+                                
+                                nav>a {
+                                    text-align: right;
+                                    color: #fff;
+                                    text-decoration: none;
+                                    margin: 10px;
+                                    font-weight: 300;
+                                }
+                                
+                                nav>a:hover {
+                                    text-decoration: underline;
+                                }
+                                
+                                .wave {
+                                    position: absolute;
+                                    bottom: 0;
+                                    width: 100%;
+                                }
+                                
+                                .caricatura {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                
+                                div.progress-bar {
+                                    background-color: #1a1a1a;
+                                    height: 25px;
+                                    padding: 1px;
+                                    width: 25%;
+                                    margin: 20px 0;
+                                    border-radius: 5px;
+                                    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+                                }
+                                
+                                div.progress-bar span {
+                                    display: inline-block;
+                                    height: 100%;
+                                    border-radius: 3px;
+                                    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+                                    transition: width .4s ease-in-out;
+                                    background-color: #ccc;
+                                }
+                                /**** GRADIENTS ****/
+                                
+                                div.blue span {
+                                    background-color: #34c2e3;
+                                }
+                                
+                                div.orange span {
+                                    background-color: #fecf23;
+                                    background-image: linear-gradient(top, #fecf23, #fd9215);
+                                }
+                                
+                                div.green span {
+                                    background-color: #a5df41;
+                                    background-image: linear-gradient(top, #a5df41, #4ca916);
+                                }
+                                /**** STRIPES ****/
+                                
+                                div.stripes span {
+                                    background-size: 30px 30px;
+                                    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+                                    animation: animate-stripes 3s linear infinite;
+                                }
+                                
+                                @keyframes animate-stripes {
+                                    0% {
+                                        background-position: 0 0;
+                                    }
+                                    100% {
+                                        background-position: 60px 0;
+                                    }
+                                }
+                                /**** SHINE ****/
+                                
+                                div.shine span {
+                                    position: relative;
+                                }
+                                
+                                div.shine span::after {
+                                    content: '';
+                                    opacity: 0;
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    bottom: 0;
+                                    left: 0;
+                                    background: #fff;
+                                    border-radius: 3px;
+                                    animation: animate-shine 2s ease-out infinite;
+                                }
+                                
+                                @keyframes animate-shine {
+                                    0% {
+                                        opacity: 0;
+                                        width: 0;
+                                    }
+                                    50% {
+                                        opacity: .5;
+                                    }
+                                    100% {
+                                        opacity: 0;
+                                        width: 95%;
+                                    }
+                                }
+                                /**** GLOW ****/
+                                
+                                div.glow span {
+                                    box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+                                    animation: animate-glow 1s ease-out infinite;
+                                }
+                                
+                                @keyframes animate-glow {
+                                    0% {
+                                        box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+                                    }
+                                    50% {
+                                        box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;
+                                    }
+                                    100% {
+                                        box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
+                                    }
+                                }
+                                
+                                .espacio {
+                                    margin: 0;
+                                    padding: 100px;
+                                    text-align: center;
+                                }
+                                
+                                .defectos {
+                                    text-align: left;
+                                }
+                                
+                                .galeria-port {
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .linea {
+                                    border-top: 5px solid #0077c0;
+                                    width: 85%;
+                                    margin: auto;
+                                    justify-content: space-around;
+                                    flex-wrap: wrap;
+                                    border-radius: 3px;
+                                }
+                                
+                                .contenedor-imagen {
+                                    width: 32%;
+                                    position: relative;
+                                    height: 400px;
+                                    margin-bottom: 5px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    margin-top: 5px;
+                                    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+                                    display: grid;
+                                    grid-template-columns: repeat(1, 1fr);
+                                }
+                                
+                                .imagen img {
+                                    width: 100%;
+                                    height: 100%;
+                                    display: block;
+                                }
+                                /* fin de pagina habilidades */
+                                /*
+Inicio Estilos Datos Personales
+*/
+                                
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    font-family: 'Raleway', sans-serif;
+                                }
+                                
+                                #cabezera {
+                                    width: 100%;
+                                    height: 280px;
+                                    padding: 35px;
+                                    background-image: url(../img/header_bg.jpeg);
+                                    background-size: cover;
+                                    text-align: center;
+                                    color: #ffffff;
+                                }
+                                
+                                #cabezera .activo {
+                                    background-color: orangered;
+                                }
+                                
+                                #cabezera hr {
+                                    width: 650px;
+                                    margin: 0 auto;
+                                }
+                                
+                                .menu {
+                                    margin-top: 40px;
+                                    font-weight: 500;
+                                }
+                                
+                                .menu ul li {
+                                    list-style: none;
+                                    display: inline;
+                                }
+                                
+                                .menu ul li a {
+                                    padding: 10px;
+                                    margin: 5px;
+                                    border-radius: 8px;
+                                    background-color: coral;
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                }
+                                
+                                .menu ul li a:hover {
+                                    background-color: lightseagreen;
+                                }
+                                
+                                #fotografia {
+                                    text-align: center;
+                                    height: 130px;
+                                }
+                                
+                                #fotografia img {
+                                    display: inline-block;
+                                    width: 180px;
+                                    border-radius: 50%;
+                                    margin: 0 auto;
+                                    position: relative;
+                                    top: -90px;
+                                    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.45);
+                                    border: 5px solid lightslategray;
+                                }
+                                
+                                #datos {
+                                    width: 100%;
+                                    text-align: center;
+                                }
+                                
+                                #datos p {
+                                    margin: 8px;
+                                }
+                                
+                                #datos table {
+                                    margin-top: 20px;
+                                }
+                                
+                                table {
+                                    width: 50%;
+                                    margin: 0 auto;
+                                    border-collapse: collapse;
+                                }
+                                
+                                td,
+                                th {
+                                    width: 50%;
+                                    border: 1px solid #dddddd;
+                                    text-align: left;
+                                    padding: 8px;
+                                }
+                                
+                                tr:nth-child(even) {
+                                    background-color: #ebebeb;
+                                }
+                                /*
+Fin Estilos Datos Personales
+*/
