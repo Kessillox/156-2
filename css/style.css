@@ -1,4 +1,165 @@
-<<<<<<< HEAD
+/***** Inicio Estilos Datos Personales *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../img/cream_pixels.png");
+}
+
+#cabecera {
+    width: 100%;
+    height: 280px;
+    padding: 35px;
+    background-image: url(../img/header_bg.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+#cabecera .activo {
+    background-color: orangered;
+}
+
+#cabecera hr {
+    width: 630px;
+    margin: 0 auto;
+    
+}
+
+.menu {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.menu ul li a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: coral;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: lightseagreen;
+}
+
+#fotografia {
+    text-align: center;
+    height: 130px;
+}
+
+#fotografia img {
+    display: inline-block;
+    width: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.45);
+    border: 5px solid lightslategray;
+}
+
+#datos {
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#datos div {
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: lightslategrey;
+}
+
+#datos div p {
+    color: white;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#datos h2 {
+    margin-top: 50px;
+}
+
+#datos p {
+    margin: 8px;
+}
+
+#datos table {
+    margin-top: 20px;
+    background-color: white;
+}
+
+#datos hr {
+    margin-top: 60px;
+}
+
+table {
+    width: 780px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+  
+td, th {
+    width: 50%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+  
+tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+#pie {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(0deg, rgba(34,158,195,1) 0%, rgb(64, 125, 247) 100%);
+      margin-top: 100px;
+      padding: 40px;
+      text-align: center;
+      color: white;
+}
+
+  #pie h4 {
+      margin-top: 10px;
+  }
+
+#menu_pie {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+}
+
+#menu_pie ul li {
+      list-style: none;
+      display: inline-block;
+}
+
+#pie .fab {
+      margin: 25px 10px;
+      font-size: 32px;
+      color: white;
+}
+
+#pie .fab:hover {
+    color: lightseagreen;
+}
+
+/***** Fin Estilos Datos Personales *****/
+
 div.progress-bar {
     background-color: #1a1a1a;
     height: 25px;
@@ -106,109 +267,4 @@ div.glow span {
         box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;
     }
 }
-=======
-/*
-Inicio Estilos Datos Personales
-*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-#cabezera {
-    width: 100%;
-    height: 280px;
-    padding: 35px;
-    background-image: url(../img/header_bg.jpeg);
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-}
-
-#cabezera .activo {
-    background-color: orangered;
-}
-
-#cabezera hr {
-    width: 650px;
-    margin: 0 auto;
-}
-
-.menu {
-    margin-top: 40px;
-    font-weight: 500;
-}
-
-.menu ul li {
-    list-style: none;
-    display: inline;
-}
-
-.menu ul li a {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 8px;
-    background-color: coral;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menu ul li a:hover {
-    background-color: lightseagreen;
-}
-
-#fotografia {
-    text-align: center;
-    height: 130px;
-}
-
-#fotografia img {
-    display: inline-block;
-    width: 180px;
-    border-radius: 50%;
-    margin: 0 auto;
-    position: relative;
-    top: -90px;
-    box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.45);
-    border: 5px solid lightslategray;
-}
-
-#datos {
-    width: 100%;
-    text-align: center;
-}
-
-#datos p {
-    margin: 8px;
-}
-
-#datos table {
-    margin-top: 20px;
-}
-
-table {
-    width: 50%;
-    margin: 0 auto;
-    border-collapse: collapse;
-  }
-  
-  td, th {
-    width: 50%;
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #ebebeb;
-  }
-/*
-Fin Estilos Datos Personales
-*/
->>>>>>> f038281744f91bf1954e2d77e35759cc7512cf95
